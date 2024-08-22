@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Alt School Application Form</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body id="top">
+ <header>
+  <img src="images/1719855207146.png" alt="Altschool logo" style="width: 150px; height: auto;">
+  <nav>
+   <ul>
+    <li><a href="index.html"> About Me</a></li>
+    <li><a href="form.html"> Application Form</a></li>
+    <li><a href="table.html"> Courses</a></li>
+    <li><a href="media.html"> Meet Me</a></li>
+   </ul>
+  </nav>
+ </header>
+ <main>
+  <section>
+   <p> Already an Altschooler? <a href="https://portal.altschoolafrica.com"> Sign in!</a></p>
+   <h1> Sign Up</h1>
+   <p> Take the next steps to apply at Altschool Africa</p>
+   <form action=" https://portal.altschoolafrica.com/auth/create-account" method="post">
+     <label for="First Name"> First Name</label><br>
+     <input type="text" placeholder=" Enter first Name"><br>
+     <br>
+     <label for="Last Name"> Last Name</label><br>
+     <input type="text" placeholder="Enter last Name"><br>
+     <br>
+     <label for="gender">Gender</label><br>
+     <select id="gender"name= "gender" required > 
+       <option value="">Select gender</option>
+       <option value="Male">Male</option>
+       <option value="Female">Female</option>
+     </select><br>
+     <br>
+     <label for="dob">Date of Birth:</label><br>
+     <input type="date"><br>
+     <br>
+     <label for="email"> Email Address</label><br>
+     <input type="email" placeholder="Enter email address"><br>
+     <br>
+     <label for="Phone Number"> Phone Number</label><br>
+     <input type="tel"placeholder="08154387000"><br>
+     <br>
+     <label for="country"> Country</label><br>
+     <input type=" Text" placeholder="Select your country"><br>
+     <br>
+     <label for="State/City of Residence"> State/City of Residence</label><br>
+     <input type="text" placeholder="Enter your state of residence"><br>
+     <br>
+     <label for="referral"> How did you hear about us </label><br>
+    <select id="referral" name="referral" required>
+      <option value="">Select channel</option>
+      <option value="Linkedin">Linkedin</option>
+      <option value="Youtube">Youtube</option>
+      <option value="Friend">Friend</option>
+      <option value="Whatsapp">Whatsapp</option>
+      <option value="Instagram">Instagram</option>
+      <option value="Billboard">Billboard</option>
+      <option value="Other">Other</option>
+    </select><br>
+    <br>
+    <label for="password"> Password </label><br>
+    <input type="text" placeholder="Enter password"><br>
+    <br>
+    <label for=" confirm password"> Confirm Password </label><br>
+    <input type="text" placeholder="Enter password again"><br>
+    <br>
+     <p> By clicking continue, I agree to the <a href="https://altschoolafrica.com/terms-and-conditions"> Terms of Use <a> and acknowledge that I have read the <a href="https://altschoolafrica.com/privacy-policy">Privacy Policy</a></p>
+     <input type="submit" value="Submit">
+   </form>
+  </section>
+ </main>
+<footer>
+  <p>&copy; 2024 Anadu Onyinye. All rights reserved.</p>
+  <a href="#top" id="back-to-top">Back to Top</a>
+</footer>
+</body>
+</html>
